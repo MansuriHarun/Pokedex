@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #f44336;
+    text-shadow: 1px 1px #ccc;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+  }
+  
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 300px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333;
+    text-shadow: 1px 1px #ccc;
+  }
+  
+  .card-subtitle {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 16px;
+    color: #666;
+    text-shadow: 1px 1px #ccc;
+  }
+  
+  .type {
+    display: inline-block;
+    padding: 4px 8px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 16px;
+  }
+  
+  .type.bug {
+    background-color: #8CB230;
+    color: #FFFFFF;
+  }
+  
+  .type.dark {
+    background-color: #58575F;
+    color: #FFFFFF;
+  }
+  
+  .type.dragon {
+    background-color: #0F6AC0;
+    color: #FFFFFF;
+  }
+  
+  .type.electric {
+    background-color: #EED535;
+    color: #000000;
+  }
+  
+  .type.fairy {
+    background-color: #ED6EC7;
+    color: #FFFFFF;
+  }
+  
+  .type.fighting {
+    background-color: #D04164;
+    color: #FFFFFF;
+  }
+  
+  .type.fire {
+    background-color: #FD7D24;
+    color: #FFFFFF;
+  }
+  
+  .type.flying {
+    background-color: #748FC9;
+    color: #FFFFFF;
+  }
+  
+  .type.ghost {
+    background-color: #556AAE;
+    color: #FFFFFF;
+  }
+  
+  .type.grass {
+    background-color: #62B957;
+    color: #FFFFFF;
+  }
+  
+  .type.ground {
+    background-color: #DD7748;
+    color: #FFFFFF;
+  }
+  
+  .type.ice {
+    background-color: #61CEC0;
+    color: #000000;
+  }
+  
+  .type.normal {
+    background-color: #9DA0AA;
+    color: #000000;
+  }
+  
+  .type.poison {
+    background-color: #A552CC;
+    color: #FFFFFF;
+  }
+  
+  .type.psychic {
+    background-color: #EA5D60;
+    color: #FFFFFF;
+  }
+  
+  .type.rock {
+    background-color: #BAAB82;
+    color: #FFFFFF;
+  }
+  
+  .type.steel {
+    background-color: #417D9A;
+    color: #FFFFFF;
+  }
+  
+  .type.water {
+    background-color: #4A90DA;
+    color: #FFFFFF;
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+    .card {
+      width: 200px;
+      height: 350px
+    }
+}  
