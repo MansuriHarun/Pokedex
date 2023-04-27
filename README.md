@@ -14,7 +14,6 @@ To run this application locally, you can follow these steps:
 Clone the repository to your local machine using git clone `https://github.com/MansuriHarun/pokedex.git`.
 Open the `index.html` file in your web browser.
 Start exploring the Pokedex!
-Alternatively, you can view the live version of this application here.
 
 Credits
 This application was created by Harun Mansuri.
