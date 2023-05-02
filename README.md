@@ -9,8 +9,12 @@ Styling with CSS for a responsive design.
 # Installation
 To run this application locally, you can follow these steps:
 
-Clone the repository to your local machine using git clone `https://github.com/MansuriHarun/pokedex.git`.
+Clone the repository to your local machine using git clone 
+
+`https://github.com/MansuriHarun/pokedex.git`.
+
 Open the `index.html` file in your web browser.
+
 Start exploring the Pokedex!
 
 # Credits
