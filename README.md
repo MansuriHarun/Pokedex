@@ -19,8 +19,10 @@ Start exploring the Pokedex!
 
 # Credits
 This application was created by Harun Mansuri.
-
 The Pokemon data is provided by the PokeAPI.
+
+# Contributing
+If you would like to contribute to this project, feel free to submit a pull request.
 
 # License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
